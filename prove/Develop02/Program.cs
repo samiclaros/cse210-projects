@@ -82,7 +82,6 @@ class Program
                 Console.WriteLine("> Invalid Choice");
                 Console.WriteLine(); // BLANK
             }
-            
         } 
         while (choice != "5");
     }
