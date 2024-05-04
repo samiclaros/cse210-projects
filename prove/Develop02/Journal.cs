@@ -32,7 +32,7 @@ public class Journal
         }
     }
         
-        public void LoadFromFile(string _file)
+    public void LoadFromFile(string _file)
     {
         // Loop through each line of the file and create Entry objects to put in the list
         // string filename = file;
