@@ -23,8 +23,8 @@ class Program : Activity
             Console.WriteLine($"You focused on your brething -- {breathingCounter} -- times.");
             Console.WriteLine($"You focused on reflecting -- {reflectingCounter} -- times.");
             Console.WriteLine($"You focused on listing your experiences -- {listingCounter} -- times.");
-            // Thread.Sleep(5000);
-            // Console.Clear();
+            
+            
             Console.WriteLine(" "); // BLANK
             Console.WriteLine("Menu Options: ");
             Console.WriteLine(" 1. Start breathing activity");

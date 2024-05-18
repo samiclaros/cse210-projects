@@ -69,7 +69,6 @@ public class Activity
     {
         for (int i = seconds; i >= 1; i--)
         {
-            // IF i < 9
             if (i <= 9)
             {
                 Console.Write(i);
@@ -82,8 +81,6 @@ public class Activity
                 Thread.Sleep(1000);
                 Console.Write("\b\b  \b\b");
             }
-            // iF i > 9 AND i < 100
-            
         }
     }
 

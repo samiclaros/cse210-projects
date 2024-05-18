@@ -62,7 +62,6 @@ public class ReflectingActivity : Activity
         } while (DateTime.Now < stopTime);
         
         DisplayEndingMessage();
-        // Console.Clear();
         
     }
 
