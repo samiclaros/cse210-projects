@@ -12,22 +12,23 @@ public class BreathingActivity : Activity
 
         Console.Write("> We are going to start in 10 seconds, get ready: ");
         ShowCountDown(10);
+        Console.Clear();
 
         DateTime startTime = DateTime.Now;
         DateTime stopTime = startTime.AddSeconds(_duration);
         do
         {
-            Console.WriteLine(" "); // BLANK
             Console.Write(">>> Breathe In <<< : ");
             ShowCountDown(10);
             Console.WriteLine(" "); // BLANK
             Console.WriteLine();
             Console.Write(">>> Breathe Out <<< : ");
             ShowCountDown(5);
+            Console.WriteLine(" "); // BLANK
             Console.WriteLine();
         } while (DateTime.Now < stopTime);
 
         DisplayEndingMessage();
-        // Console.Clear();
+        Console.Clear();
     }
 }

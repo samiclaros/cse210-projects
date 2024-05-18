@@ -49,7 +49,6 @@ public class ListingActivity : Activity
         Console.WriteLine($"You listed {_count} items!.");
 
         DisplayEndingMessage();
-        Console.Clear();
     }
 
     public string GetRandomPrompt()

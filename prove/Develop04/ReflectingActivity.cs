@@ -43,6 +43,7 @@ public class ReflectingActivity : Activity
 
         Console.WriteLine("When you have something in mind, press enter to continue.");
         Console.ReadLine();
+        Console.Clear();
 
         Console.WriteLine("> Now ponder on each of the following questions as they related to this experience.");
         Console.WriteLine(" "); // BLANK
