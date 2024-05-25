@@ -177,14 +177,14 @@ public class GoalManager
         _goals.Clear(); //  This part will clear the list when the file is already save it
     }
 
-    public void LoadGoals(string fileName) // I added the parameter to this part
+    public void LoadGoals(string fileName)
     {
 
-        string[] lines = System.IO.File.ReadAllLines(fileName); //  This part is correct to localize the correct file and load it?
+        string[] lines = System.IO.File.ReadAllLines(fileName);
 
         if (lines.Length > 0)
         {
-            int lastScore = int.Parse(lines[0]); // Trabajando aqui
+            int lastScore = int.Parse(lines[0]); 
             _score = lastScore;
         }
 
