@@ -34,6 +34,7 @@ class Program
             Console.WriteLine(comment.GetComment());
         }
         Console.WriteLine($"This is the number of comments: {video1.GetCommentCount()}");
+        Console.WriteLine(""); // BLANK
         //
         video2.Display();
         video2.AddComment(comment2_1);
@@ -47,6 +48,7 @@ class Program
             Console.WriteLine(comment.GetComment());
         }
         Console.WriteLine($"This is the number of comments: {video2.GetCommentCount()}");
+        Console.WriteLine(""); // BLANK
         ////
         video3.Display();
         video3.AddComment(comment3_1);
@@ -60,5 +62,6 @@ class Program
             Console.WriteLine(comment.GetComment());
         }
         Console.WriteLine($"This is the number of comments: {video3.GetCommentCount()}");
+        Console.WriteLine(""); // BLANK
     }
 }

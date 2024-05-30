@@ -1,9 +1,9 @@
 public class Video
 {
-    private string _author;
-    private int _duration;
-    private string _title;
-    private List<Comment> _comments = new();
+    public string _author;
+    public int _duration;
+    public string _title;
+    public List<Comment> _comments = new();
 
     public Video(string title, string author, int duration)
     {
