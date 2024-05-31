@@ -21,6 +21,14 @@ public class Adress
     
     public bool IsInUsa() // Getter of isInUSA
     {
-        return _isInUSA;
+        if (_country == "United States" || _country == "USA" || _country == "United States of America" || _country == "united states of america" || _country == "united states")
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+        // return _isInUSA();
     }
 }

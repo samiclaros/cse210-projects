@@ -19,11 +19,6 @@ public class Event
         _adress = adress;
     }
 
-    private void AddAdress(Adress adress)
-    {
-        _adress.Add(adress);
-    }
-
     public void StandardDetails()
     {
         Console.WriteLine($"1. {_title}");
