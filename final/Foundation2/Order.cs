@@ -1,3 +1,5 @@
+using System;
+using System.Collections.Generic;
 public class Order
 {
     private List<Product> _products = new();
@@ -33,11 +35,11 @@ public class Order
 
     public void PackagingDetails() // Better would be void type
     {
+        Console.WriteLine($"Details of the packaging for {_customer.GetName()}:");
         int counter = 1;
-        Console.WriteLine($"{_customer}: ");
         foreach (Product product in _products)
         {
-            Console.WriteLine(counter + ". " + product.GetNameProduct());
+            Console.WriteLine($"{counter}. {product.GetNameProduct()} (ID: {product.GetIDProduct()}) - Price p/unity: ${product.GetPrice()} - Quantity: {product.GetQuantity()}");
             counter++;
         }
     }

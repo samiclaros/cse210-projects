@@ -1,3 +1,5 @@
+using System;
+using System.Collections.Generic;
 public class Product
 {
     private string _name;
@@ -22,6 +24,16 @@ public class Product
     {
         return _name;
     }
+
+    public int GetQuantity()
+    {
+        return _quantity;
+    }
+    public double GetPrice()
+    {
+        return _price;
+    }
+
 
     public string GetIDProduct()
     {
