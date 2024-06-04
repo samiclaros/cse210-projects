@@ -13,7 +13,7 @@ public class Reception : Event
         Console.WriteLine($"Description: {_description}");
         Console.WriteLine($"Date: {_date}");
         Console.WriteLine($"Time: {_time}");
-        Console.WriteLine($"Adress: {_adress.GetAdress()}");
+        Console.WriteLine($"Adress: {_adress.GetFullAdress()}");
         Console.WriteLine(" "); // BLANK
 
         Console.WriteLine(">>>>> Adittional information <<<<<< ");

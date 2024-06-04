@@ -4,7 +4,6 @@ public class Adress
     private string _city;
     private string _stateOrProvince;
     private string _country;
-    private bool _isInUSA;
 
     public Adress(string street, string city, string stateOrProvince, string country)
     {
@@ -21,7 +20,7 @@ public class Adress
     
     public bool IsInUsa() // Getter of isInUSA
     {
-        if (_country == "United States" || _country == "USA" || _country == "United States of America" || _country == "united states of america" || _country == "united states")
+        if (_country == "United States")
         {
             return true;
         }
@@ -29,6 +28,5 @@ public class Adress
         {
             return false;
         }
-        // return _isInUSA();
     }
 }
