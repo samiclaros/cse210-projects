@@ -32,7 +32,7 @@ class Program
         Console.WriteLine(" "); // BLANK
         Console.WriteLine("-----------------------------------------------------------------------------------------------------------------------------------------------------------------------");
 
-        Adress adressOutdoors = new("Nephi #345", "Utah", "Utah", "United States");
+        Adress adressOutdoors = new("Av. Humboltd, in the corner of Cobija Bridge", "Cochabamba", "Cercado", "Bolivia");
         Outdoors outdoors = new("Outdoors Gatherings", "Little CCM", "In this event you can have a day as a Missionary of the Church of Jesus Christ of Latter Day Saints, you will live as a Missionary in the Mission", "Since 20/06/2024 until 22/06/2024", "Three days", adressOutdoors, "Sunny"); // string typeOfEvent, string title, string description, string date, string time, Adress adress, string weather
         Console.WriteLine(" "); // BLANK
         Console.WriteLine("Standard Details: ");
