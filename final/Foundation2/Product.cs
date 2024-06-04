@@ -34,7 +34,6 @@ public class Product
         return _price;
     }
 
-
     public string GetIDProduct()
     {
         return _id;
